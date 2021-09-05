@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/style.css">
+  <meta name="description"
+    content="This your one and only Fantasy_Expert here inviting you to have a look at our Edits. For now we are only uploading limited picture because we prefer quality rather then quantity.">
+  <meta name="keywords"
+    content="3d art, fantasy, fantasy expert, art, pictures, background, 4k background, hd background, hd image, 4k image, minimalist">
+  <meta name="robots" content="INDEX, FOLLOW">
+  <!-- <meta name="googlebot" content="INDEX, FOLLOW"> -->
+  <title>Aman Kushwaha ~ Resume</title>
+  <meta name="google-site-verification" content="hXm-Tcqn4RZb_dU2RMsuLQTWlob5Sfmg1FKp3ZtOHlA" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script>
+    let sign = document.getElementsByClassName('show')[0]
+    let sigp = document.getElementsByClassName('hide')[0]
+    let waste = document.getElementById('waste')
+
+    sigp.style.display = 'none';
+    // let somee = document.getElementById('dash')
+    // sigp.style = '@media only screen and (max-width:1100px) {display:none}';
+
+    sign.addEventListener("click", () => {
+
+      console.log("clicked");
+      if (sigp.style.display === 'none') {
+        sigp.style.display = 'flex';
+        waste.style.padding = '4%';
+        console.log('hello')
+      }
+      else {
+        sigp.style.display = 'none'
+        waste.style.padding = '4% 4% 0% 4%';
+        // sign.style.display
+        console.log('hi')
+      }
+    })
+
+  </script>
+</body>
+
+</html>
